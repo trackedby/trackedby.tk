@@ -16,7 +16,7 @@ body {
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow: hidden;   
-    width: 80%;
+    width: 70%;
 }
 .button:hover {
     transition: all 0.3s ease;
