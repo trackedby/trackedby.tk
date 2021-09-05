@@ -1,0 +1,33 @@
+body {
+    font:18px 'Gilroy', sans-serif;
+}
+.button {
+    border: none;
+    padding: 15px 32px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    transition-duration: 0.4;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30%;
+    height: 50%;
+    overflow: hidden;   
+}
+.button:hover {
+    transition: all 0.3s ease;
+    transform: scale(0.98);
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    transition-duration: 0.4;
+    border-radius: 10px;
+    border-style: dashed;
+    border-left-width: 100;
+}
