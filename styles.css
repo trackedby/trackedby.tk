@@ -16,23 +16,22 @@ body {
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow: hidden;   
-    width: 70%;
+    width: 15em;
 }
 .button:hover {
     transition: all 0.3s ease;
-    transform: scale(0.98);
+    transform: scale(0.99);
     background-color: transparent;
     border-color: white;
     color: white;
     transition-duration: 0.4;
     border-radius: 10px;
-    border-style: dashed;
+    border-style: solid;
     border-left-width: 100;
 }
 @media screen and (max-width: 750px) {
     .widget {
         display: none !important;
-        width: 10%;
     }
     body {
         font:8px 'Gilroy', sans-serif;
