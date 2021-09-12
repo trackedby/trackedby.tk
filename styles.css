@@ -27,7 +27,6 @@ body {
     transition-duration: 0.4;
     border-radius: 10px;
     border-style: solid;
-    border-left-width: 100;
 }
 @media screen and (max-width: 750px) {
     .widget {
