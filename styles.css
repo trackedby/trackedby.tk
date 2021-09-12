@@ -40,3 +40,7 @@ body {
         padding: 15px 32px;
     }
 }
+@media (prefers-reduced-motion) {
+    .button:hover {
+    transition: all .40
+}
