@@ -1,46 +1,52 @@
-body {
-    font:18px 'Gilroy', sans-serif;
+@font-face {
+    font-family: "ProductSansBold";
+    src: url(/Product\ Sans\ Bold.ttf);
 }
-.button {
-    border: none;
-    padding: 15px 32px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-style: solid;
-    border-radius: 1px;
-    border-color: black;
-    transition-duration: 0.4;
-    cursor: pointer;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow: hidden;   
-    width: 15em;
+
+@font-face {
+    font-family: "ProductSansRegular";
+    src: url(/Product\ Sans\ Regular.ttf);
 }
-.button:hover {
-    transition: all 0.3s ease;
-    transform: scale(0.99);
-    background-color: transparent;
-    border-color: white;
+
+.name {
+    font-family: 'ProductSansBold';
     color: white;
-    transition-duration: 0.4;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.btnsrc {
+    background: none;
+    color: white;
+    font-family: "ProductSansBold";
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn1 {
+    border: 2px solid #171a21;
     border-radius: 10px;
-    border-style: solid;
+    padding: 10px;
+    background: linear-gradient(240deg, #00adee, #000000);
 }
-@media screen and (max-width: 750px) {
-    .widget {
-        display: none !important;
-    }
-    body {
-        font:8px 'Gilroy', sans-serif;
-        align-items: center;
-    }
-    .button {
-        padding: 15px 32px;
-    }
+
+.btn2 {
+    border: 2px solid #e95950;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
 }
-@media (prefers-reduced-motion) {
-    .button:hover {
-    transition: all .40
+
+.btn3 {
+    border: 2px solid #5865F2;
+    border-radius: 10px;
+    padding: 10px;
+    background: #5865F2;
 }
